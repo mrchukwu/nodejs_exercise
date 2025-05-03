@@ -1,12 +1,12 @@
 
-const x = "Hello World";
+export const x = "Hello World";
 
-function calculateSum(a,b){
+export function calculateSum(a,b){
     const sum = a + b;
     console.log(sum)
 }
 
-module.exports = {
-    x: x,
-    calculateSum: calculateSum
-};
+// module.exports = {
+//     x: x,
+//     calculateSum: calculateSum
+// };

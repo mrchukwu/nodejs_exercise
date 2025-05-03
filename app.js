@@ -1,6 +1,9 @@
-require('./xyz')
+// require('./xyz')
 // const obj = require('./sum') //one way of accessing the private variables & functions using "obj";
-const {x , calculateSum} = require('./sum')
+// const {x , calculateSum} = require('./sum')
+
+//ES6 Modules
+import {x, calculateSum} from './sum.js';
 
 
 const courseName = "Namsta Nodejs course";
